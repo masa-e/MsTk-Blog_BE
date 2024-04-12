@@ -1,5 +1,17 @@
 {
   "name": "myapp",
   "private": true,
-  "dependencies": {}
+  "devDependencies": {
+    "@prettier/plugin-ruby": "^3.2.2",
+    "eslint": "^8.42.0",
+    "prettier": "^2.8.8",
+    "stylelint-config-prettier": "^9.0.5",
+    "stylelint-prettier": "^3.0.0"
+  },
+  "semi": true,
+  "trailingComma": "all",
+  "singleQuote": true,
+  "printWidth": 120,
+  "tabWidth": 2,
+  "endOfLine": "lf"
 }
