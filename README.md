@@ -1,24 +1,48 @@
-# README
+# MsTk Blog Backend
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 機能
 
-Things you may want to cover:
+- お問い合わせ 内容登録
 
-* Ruby version
+## 技術構成
 
-* System dependencies
+- Ruby
+- Ruby on Rails
+- MySQL
+- ESLint
+- Prettier
 
-* Configuration
+## バージョン
 
-* Database creation
+#### Ruby
+* ruby 3.1.2
 
-* Database initialization
+#### rails
+* Rails 7.0.8.1
 
-* How to run the test suite
+#### rbenv
+* rbenv 1.2.0
 
-* Services (job queues, cache servers, search engines, etc.)
+## 開発方法
 
-* Deployment instructions
+```
+# 開発サーバーを起動
+(FEをポート3000で起動するため、3009で指定)
 
-* ...
+$ rails s -p 3009
+
+
+# MySQL起動
+
+$ mysql.server start
+
+
+# MySQLにログイン
+
+$ mysql -u root -h 127.0.0.1
+
+
+# DBマイグレーション
+
+$ rake db:migrate
+```
